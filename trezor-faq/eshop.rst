@@ -11,7 +11,7 @@ Orders at **TREZOR Shop** are typically processed the same or the next working d
 
 To make a purchase:
 
-1. Select the color of your TREZOR and click "Buy now".
+1. Select the color of your TREZOR and click "Purchase now".
 2. You will be taken to the Shopping Cart. If you wish to add more products, you can do it right there by changing the amounts and hitting "Recalculate".
 3. Optionally switch DHL Express shipping to Standard Shipping by clicking the Standard Shipping tile below the cart.
 4. Proceed to entering your address and confirm with "Send order".
