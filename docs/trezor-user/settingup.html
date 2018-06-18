@@ -251,7 +251,7 @@
 <p>There are four options to make TREZOR communicate with <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a>.</p>
 <div class="section" id="trezor-bridge">
 <h2>1. TREZOR Bridge<a class="headerlink" href="#trezor-bridge" title="Permalink to this headline">¶</a></h2>
-<p>To allow TREZOR communicate with <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> you need to install a piece of software called TREZOR Bridge.  When you go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> website you will see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.</p>
+<p>To allow TREZOR to communicate with <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> you need to install a piece of software called TREZOR Bridge.  When you go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a> website you will see a page with a Download link.  Download the TREZOR bridge and follow the instructions on the screen.</p>
 </div>
 <div class="section" id="trezor-chrome-extension">
 <h2>2. TREZOR Chrome extension<a class="headerlink" href="#trezor-chrome-extension" title="Permalink to this headline">¶</a></h2>
@@ -264,7 +264,7 @@
 </div>
 <div class="section" id="trezor-manager-for-android">
 <h2>3. TREZOR Manager for Android<a class="headerlink" href="#trezor-manager-for-android" title="Permalink to this headline">¶</a></h2>
-<p>You can also set up TREZOR with our <a class="reference external" href="https://play.google.com/store/apps/details?id=io.trezor.app">TREZOR Manager</a>, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at <a class="reference external" href="https://shop.trezor.io/">TREZOR Shop</a>.)</p>
+<p>You can also set up TREZOR with our <a class="reference external" href="https://play.google.com/store/apps/details?id=io.trezor.app">TREZOR Manager</a>, which can be found in Google Play store. Your phone has to support the USB Host (USB On The Go - OTG) and you need to use the OTG cable (you can buy one as a TREZOR accessory directly at <a class="reference external" href="https://shop.trezor.io/">TREZOR Shop</a>).</p>
 <p>For more details, see our step by step manual <a class="reference internal" href="android.html"><span class="doc">how to set up TREZOR with TREZOR Manager for Android</span></a>.</p>
 </div>
 <div class="section" id="offline-with-python-tools">
@@ -273,7 +273,7 @@
 </div>
 <div class="section" id="setting-up-trezor-with-trezor-wallet">
 <h2>Setting up TREZOR with TREZOR Wallet<a class="headerlink" href="#setting-up-trezor-with-trezor-wallet" title="Permalink to this headline">¶</a></h2>
-<p>You’ve successfully established a communication between your TREZOR and TREZOR Wallet. Good job! Now go to go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a>. There are still a couple of steps you need to take in order to start using your TREZOR, so let’s get right into it.</p>
+<p>You’ve successfully established a communication between your TREZOR and TREZOR Wallet. Good job! Now go to <a class="reference external" href="https://wallet.trezor.io">TREZOR Wallet</a>. There are still a couple of steps you need to take in order to start using your TREZOR, so let’s get right into it.</p>
 <p>As TREZOR comes without a firmware installed, to make sure you always have the newest version when setting up, the first thing you will be asked to do is to install the device system - firmware. Simply confirm the installation and follow instructions on your screen.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Warning</p>
@@ -282,12 +282,12 @@
 <p>In order to install or update the firmware, you will have to enter a so-called bootloader mode. Bootloader basically verifies the validity of the firmware software. You can read all about our bootloader versions and changes which were applied here: <a class="reference external" href="https://github.com/trezor/trezor-mcu/blob/master/bootloader/ChangeLog">Github repository</a>.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Since the latest bootloader version 1.3.2, you will not be asked to confirm fingerprints during the initial setup, which is applied automatically. However, you will be asked to compare the fingerprints with any additional firmware update.</p>
+<p class="last">On Model One, you will not be asked to confirm fingerprints during the initial setup, which is applied automatically. However, you will be asked to compare the fingerprints with any additional firmware update. On the Model T, you can check the firmware fingerprint by starting the device in bootloader mode (slide finger on the display when plugging the device in), and then click on the (i) icon.</p>
 </div>
 <p>After the firmware is installed successfully, replug your TREZOR, and you will be greeted by a welcome page where you can choose to either Create a new wallet or Recover wallet. Simply click on “Create new” button.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">With TREZOR, you can recover any wallet based on 12, 18, or 24-word recovery seed (BIP32/39/44). For more details on how the recovery process works, please see <span class="xref std std-doc">Recovery process</span></p>
+<p class="last">With TREZOR, you can recover any wallet based on 12, 18, or 24-word recovery seed (BIP32/39/44). For more details on how the recovery process works, please see <a class="reference internal" href="recovery.html"><span class="doc">Recovery</span></a>.</p>
 </div>
 <p>Once you create a new wallet, you’re pretty much inside your own TREZOR Wallet and you can look through all of the features it has to offer. However, it would be very unwise to use your TREZOR Wallet without having it backed up. Therefore, we strongly advise to proceed with the backup and write down your recovery seed immediately.</p>
 <p>After you agree to the terms, you will see a unique combination of words on your TREZOR screen which need to be written down to your recovery card. The whole process is described in the following section <a class="reference internal" href="fillingoutyourrecoverycard.html"><span class="doc">Filling out your Recovery Card</span></a>.</p>
