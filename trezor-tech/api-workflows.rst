@@ -201,6 +201,8 @@ SignMessage/VerifyMessage
 CipherKeyValue
 --------------
 
+See https://github.com/satoshilabs/slips/blob/master/slip-0011.md .
+
 ResetDevice
 -----------
 
