@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/Developers_guide:CrowdIn.com_-_Tool_for_translating>`_ for the latest version of this page.
+
 CrowdIn.com - Tool for translating
 ==================================
 

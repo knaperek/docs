@@ -245,7 +245,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="two-factor-authentication-with-u2f">
+  <blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We are currently moving the documentation to a new platform. Please visit <a class="reference external" href="https://wiki.trezor.io/User_manual:Two-factor_Authentication_with_U2F">Trezor Wiki</a> for the latest version of this page.</p>
+</div>
+</div></blockquote>
+<div class="section" id="two-factor-authentication-with-u2f">
 <h1>Two-factor Authentication with U2F<a class="headerlink" href="#two-factor-authentication-with-u2f" title="Permalink to this headline">¶</a></h1>
 <img alt="_images/u2f.png" src="_images/u2f.png" />
 <p>Two-factor authentication (2FA) is currently the most common way how you can protect your online accounts from unauthorized access. In addition to what you know (your username and password), you use something that only you have — a phone, an app or a specialized hardware token, in order to login securely.</p>
@@ -304,7 +310,7 @@
 <p class="last">If you have firmware from version 1.4.2 and higher, U2F counter will be restored automatically on Wallet Recovery. Simply restore your wallet, and the U2F counter will be set to the UNIX time at the moment of recovery.</p>
 </div>
 <p>You can increase the counter manually with <a class="reference external" href="https://github.com/trezor/python-trezor">python-trezor</a>:</p>
-<p><code class="docutils literal"><span class="pre">trezorctl</span> <span class="pre">set_u2f_counter</span> <span class="pre">$(date</span> <span class="pre">+%s)</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">trezorctl</span> <span class="pre">set_u2f_counter</span> <span class="pre">$(date</span> <span class="pre">+%s)</span></code></p>
 <p>This command will increase the counter to the current UNIX time. (As long as the counter is higher than the one recorded on provider’s side, login will be successful.)</p>
 <p>Relevant discussion: <a class="reference external" href="https://www.reddit.com/r/TREZOR/comments/50h8r9/new_trezor_firmware_fidou2f_and_initial_ethereum/d74iw3b/">Reddit Thread</a>.</p>
 </div>

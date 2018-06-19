@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/FAQ:Differences>`_ for the latest version of this page.
+
 How is TREZOR different from ...
 ================================
 

@@ -158,14 +158,20 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="low-level-api">
+  <blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We are currently moving the documentation to a new platform. Please visit <a class="reference external" href="https://wiki.trezor.io/Developers_guide:Low_level_API">Trezor Wiki</a> for the latest version of this page.</p>
+</div>
+</div></blockquote>
+<div class="section" id="low-level-api">
 <h1>Low level API<a class="headerlink" href="#low-level-api" title="Permalink to this headline">¶</a></h1>
 <p>TREZOR communicates using a simple request-response model.
 Messages are exchanged always in a purely synchronous fashion over <a class="reference external" href="https://en.wikipedia.org/wiki/USB_HID">USB HID</a>.
 These messages are serialized into binary format using <a class="reference external" href="https://en.wikipedia.org/wiki/Protocol_Buffers">Protocol Buffers</a>.</p>
 <div class="section" id="id1">
 <h2>USB HID<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<p>The SatoshiLabs Vendor ID is <code class="docutils literal"><span class="pre">0x534c</span></code> and TREZOR’s Device ID <code class="docutils literal"><span class="pre">0x0001</span></code>.</p>
+<p>The SatoshiLabs Vendor ID is <code class="docutils literal notranslate"><span class="pre">0x534c</span></code> and TREZOR’s Device ID <code class="docutils literal notranslate"><span class="pre">0x0001</span></code>.</p>
 <p>If you’ve never worked with HID devices before, it may be helpful to take a look at <a class="reference external" href="https://github.com/trezor/python-trezor/blob/master/trezorlib/transport/hid.py">Python implementation</a> or <a class="reference external" href="https://github.com/trezor/trezor-android/blob/master/trezor-lib/src/main/java/com/satoshilabs/trezor/lib/TrezorManager.java">Java implementation</a> which establish a connection to TREZOR and reads and write to the device.</p>
 </div>
 <div class="section" id="protobuf-definitions">

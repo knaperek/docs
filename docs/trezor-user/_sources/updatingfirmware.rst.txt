@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Updating_your_Trezor's_firmware>`_ for the latest version of this page.
+
 Updating your TREZOR's firmware
 ===============================
 

@@ -248,7 +248,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="setting-up-the-chrome-extension-on-linux">
+  <blockquote>
+<div><div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We are currently moving the documentation to a new platform. Please visit <a class="reference external" href="https://wiki.trezor.io/User_manual:Setting_up_the_Chrome_extension_on_Linux">Trezor Wiki</a> for the latest version of this page.</p>
+</div>
+</div></blockquote>
+<div class="section" id="setting-up-the-chrome-extension-on-linux">
 <h1>Setting up the Chrome extension on Linux<a class="headerlink" href="#setting-up-the-chrome-extension-on-linux" title="Permalink to this headline">¶</a></h1>
 <p>The <a class="reference external" href="https://chrome.google.com/webstore/detail/jcjjhjgimijdkoamemaghajlhegmoclj">Chrome extension</a> is a convenient way of using TREZOR without installing proprietary software on your computer.
 However, on Linux, users need to perform additional configuration of their system.</p>
@@ -262,7 +268,7 @@ Those additional UDEV rules are necessary for communication between the device a
 <li>Create new file <cite>/etc/udev/rules.d/51-trezor.rules</cite> in your favourite text editor (root privileges are necessary).</li>
 <li>Copy the following two lines, paste them into the file and save it.</li>
 </ol>
-<div class="highlight-default"><div class="highlight"><pre><span></span> <span class="c1"># TREZOR</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="c1"># TREZOR</span>
 <span class="n">SUBSYSTEM</span><span class="o">==</span><span class="s2">&quot;usb&quot;</span><span class="p">,</span> <span class="n">ATTR</span><span class="p">{</span><span class="n">idVendor</span><span class="p">}</span><span class="o">==</span><span class="s2">&quot;534c&quot;</span><span class="p">,</span> <span class="n">ATTR</span><span class="p">{</span><span class="n">idProduct</span><span class="p">}</span><span class="o">==</span><span class="s2">&quot;0001&quot;</span><span class="p">,</span> <span class="n">MODE</span><span class="o">=</span><span class="s2">&quot;0660&quot;</span><span class="p">,</span> <span class="n">GROUP</span><span class="o">=</span><span class="s2">&quot;plugdev&quot;</span><span class="p">,</span> <span class="n">TAG</span><span class="o">+=</span><span class="s2">&quot;uaccess&quot;</span><span class="p">,</span> <span class="n">TAG</span><span class="o">+=</span><span class="s2">&quot;udev-acl&quot;</span><span class="p">,</span> <span class="n">SYMLINK</span><span class="o">+=</span><span class="s2">&quot;trezor%n&quot;</span>
 <span class="n">KERNEL</span><span class="o">==</span><span class="s2">&quot;hidraw*&quot;</span><span class="p">,</span> <span class="n">ATTRS</span><span class="p">{</span><span class="n">idVendor</span><span class="p">}</span><span class="o">==</span><span class="s2">&quot;534c&quot;</span><span class="p">,</span> <span class="n">ATTRS</span><span class="p">{</span><span class="n">idProduct</span><span class="p">}</span><span class="o">==</span><span class="s2">&quot;0001&quot;</span><span class="p">,</span>  <span class="n">MODE</span><span class="o">=</span><span class="s2">&quot;0660&quot;</span><span class="p">,</span> <span class="n">GROUP</span><span class="o">=</span><span class="s2">&quot;plugdev&quot;</span><span class="p">,</span> <span class="n">TAG</span><span class="o">+=</span><span class="s2">&quot;uaccess&quot;</span><span class="p">,</span> <span class="n">TAG</span><span class="o">+=</span><span class="s2">&quot;udev-acl&quot;</span>
 

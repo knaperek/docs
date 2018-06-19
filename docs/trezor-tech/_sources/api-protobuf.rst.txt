@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/Developers_guide:Low_level_API>`_ for the latest version of this page.
+
 Low level API
 =============
 

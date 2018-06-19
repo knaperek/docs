@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Setting_up_your_Trezor_device>`_ for the latest version of this page.
+
 Setting up your TREZOR device
 =============================
 

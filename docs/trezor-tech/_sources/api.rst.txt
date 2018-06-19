@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/Developers_guide:Trezor_APIs>`_ for the latest version of this page.
+
 TREZOR APIs
 ===========
 
