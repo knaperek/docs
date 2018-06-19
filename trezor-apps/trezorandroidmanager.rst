@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/Apps:Trezor_Manager>`_ for the latest version of this page.
+
 TREZOR Manager (Android App)
 ----------------------------
 

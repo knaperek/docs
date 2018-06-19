@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Setting_up_the_Chrome_extension_on_Linux>`_ for the latest version of this page.
+
 Setting up the Chrome extension on Linux
 ========================================
 

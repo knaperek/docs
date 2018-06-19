@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Transferring_money_to_your_Trezor>`_ for the latest version of this page.
+
 Transferring money to your TREZOR
 =================================
 

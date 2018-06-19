@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Two-factor_Authentication_with_U2F>`_ for the latest version of this page.
+
 Two-factor Authentication with U2F
 ==================================
 

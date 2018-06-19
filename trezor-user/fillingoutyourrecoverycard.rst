@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Filling_out_your_recovery_card>`_ for the latest version of this page.
+
 Filling out your recovery card
 ==============================
 

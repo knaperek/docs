@@ -1,3 +1,5 @@
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:Using_Trezor_with_Android>`_ for the latest version of this page.
+
 Using TREZOR with Android
 =========================
 
