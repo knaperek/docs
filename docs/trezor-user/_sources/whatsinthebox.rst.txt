@@ -1,4 +1,4 @@
- .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:What's_in_the_box?>`_ for the latest version of this page.
+ .. note:: We are currently moving the documentation to a new platform. Please visit `Trezor Wiki <https://wiki.trezor.io/User_manual:What%27s_in_the_box%3F>`_ for the latest version of this page.
 
 What's in the box?
 ==================
