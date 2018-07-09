@@ -6,7 +6,7 @@ MultiBit HD
 What is MultiBit HD?
 --------------------
 
-`MultiBit HD <https://multibit.org/>`_ is a lightweight desktop wallet for Windows, Linux and OSX written in Java with over 40 international languages support.
+`MultiBit HD <https://multibit.org/>`_ is a lightweight desktop wallet for Windows, Linux and macOS written in Java with over 40 international languages support.
 
 Resources
 ^^^^^^^^^
@@ -77,7 +77,7 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                             ✔                   Windows, Linux, OSX
+:icon:`laptop` Platform                             ✔                   Windows, Linux, macOS
 :icon:`money` Coin(s)                               ✔                   Bitcoin
 :icon:`language` Languages                          ✔                   English and `over 40 other languages <https://crowdin.com/project/multibit-hd>`_
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses

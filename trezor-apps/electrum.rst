@@ -37,7 +37,7 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                             ✔                   Windows, Linux, OSX, Android
+:icon:`laptop` Platform                             ✔                   Windows, Linux, macOS, Android
 :icon:`money` Coin(s)                               ✔                   Bitcoin
 :icon:`language` Languages                          ✔                   English
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses

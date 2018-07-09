@@ -83,8 +83,8 @@ Recovering Funds without TREZOR Device
 In case your TREZOR device gets lost or damaged, you can access your bitcoins fast using your :download:`paper backup <../trezor-user/images/recovery_card.pdf>` and one of the following wallets:
 
 - `ArcBit <http://arcbit.io>`_ (iOS)
-- `Copay <https://copay.io>`_ (Linux, Windows, OSX, Android, iOS, Windows phone)
-- `Electrum <https://electrum.org/#download>`_ (Linux, Windows, OSX, Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-electrum>`_
+- `Copay <https://copay.io>`_ (Linux, Windows, macOS, Android, iOS, Windows phone)
+- `Electrum <https://electrum.org/#download>`_ (Linux, Windows, macOS, Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-electrum>`_
 - `Mycelium <https://play.google.com/store/apps/details?id=com.mycelium.wallet>`_ (Android), `recovery manual <https://www.buybitcoinworldwide.com/kb/restore-trezor-seed-mycelium-android>`_
 
 .. Ongoing Integrations

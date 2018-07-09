@@ -10,7 +10,7 @@ Visit `TREZOR Password Manager <https://passwords.mytrezor.com>`_ pages to learn
 Set up TREZOR Password Manager:
 -------------------------------
 
-You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your OSX, Windows, and Linux.
+You only need to perform this setup once. TREZOR Password Manager works with Chrome and cross-platform on your macOS, Windows, and Linux.
 
 **1. Check if you have TREZOR Chrome extension (TCE)**
 

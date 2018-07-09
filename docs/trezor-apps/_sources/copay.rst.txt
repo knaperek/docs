@@ -108,7 +108,7 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                             ✔                   Windows, Linux, OSX with Chrome Extension
+:icon:`laptop` Platform                             ✔                   Windows, Linux, macOS with Chrome Extension
 :icon:`money` Coin(s)                               ✔                   Bitcoin
 :icon:`language` Languages                          ✔                   English, Spanish, German, Italian, Japanese and many others.
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses

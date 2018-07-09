@@ -9,7 +9,7 @@ What is Electrum-DASH?
 ----------------------
 
 `Electrum-DASH <https://www.dash.org/news/electrum-dash-with-trezor-support-released>`_
-is a DASH lightweight desktop wallet for Windows, Linux and Mac OS based on Electrum.
+is a DASH lightweight desktop wallet for Windows, Linux and macOS based on Electrum.
 
 Resources
 ^^^^^^^^^
@@ -34,7 +34,7 @@ Properties and Features
 =================================================== =================== ===========================================================================================================
 Wallet Property                                                         Description
 ----------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------
-:icon:`laptop` Platform                             ✔                   Windows, Linux, OSX
+:icon:`laptop` Platform                             ✔                   Windows, Linux, macOS
 :icon:`money` Coin(s)                               ✔                   DASH
 :icon:`language` Languages                          ✔                   English
 :icon:`book` Address Book                           ✔                   Manage contact list of receiving and sending addresses
