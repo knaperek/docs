@@ -64,7 +64,7 @@ address on the device.  The field `address_n` gives the bip-32 path to
 the address.  The field `coin_name` should be set to some supported
 coin (see the `Feature` message for a list of supported coins).  For
 multisig addresses `multisig` must be filled out with all
-participating master public keys and there bip-32 path.  The
+participating master public keys and their bip-32 path.  The
 `script_type` field has the same meaning as for transaction inputs
 when signing:
 
